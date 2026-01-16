@@ -1,12 +1,12 @@
 {
   "config": {
-    "sequence_length": 90,
+    "sequence_length": 60,
     "hidden_size": 64,
     "num_layers": 2,
     "dropout": 0.2,
-    "batch_size": 64,
-    "epochs": 150,
-    "learning_rate": 0.001,
+    "batch_size": 32,
+    "epochs": 250,
+    "learning_rate": 0.0001,
     "train_split": 0.8,
     "test_split": 0.2
   },
@@ -17,17 +17,17 @@
     "dropout": 0.2
   },
   "metrics": {
-    "train_rmse": 44.56983425330794,
-    "train_mae": 31.461482730579217,
-    "train_mape": 0.9382179529374275,
-    "test_rmse": 164.0304560683885,
-    "test_mae": 136.3201732015937,
-    "test_mape": 2.21031142411495
+    "train_rmse": 66.30517126516189,
+    "train_mae": 49.96359968589502,
+    "train_mape": 1.1238351891054432,
+    "test_rmse": 107.61711490853763,
+    "test_mae": 80.29951266788831,
+    "test_mape": 1.302818466046611
   },
   "data_info": {
-    "total_samples": 2514,
-    "train_samples": 1939,
-    "test_samples": 485,
+    "total_samples": 1256,
+    "train_samples": 956,
+    "test_samples": 240,
     "features": [
       "Open",
       "High",
@@ -36,5 +36,5 @@
       "Volume"
     ]
   },
-  "training_date": "2026-01-16 12:18:09"
+  "training_date": "2026-01-16 15:23:16"
 }
