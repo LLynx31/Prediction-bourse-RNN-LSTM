@@ -1,0 +1,40 @@
+{
+  "config": {
+    "sequence_length": 90,
+    "hidden_size": 64,
+    "num_layers": 2,
+    "dropout": 0.2,
+    "batch_size": 64,
+    "epochs": 150,
+    "learning_rate": 0.001,
+    "train_split": 0.8,
+    "test_split": 0.2
+  },
+  "model_params": {
+    "input_size": 5,
+    "hidden_size": 64,
+    "num_layers": 2,
+    "dropout": 0.2
+  },
+  "metrics": {
+    "train_rmse": 44.56983425330794,
+    "train_mae": 31.461482730579217,
+    "train_mape": 0.9382179529374275,
+    "test_rmse": 164.0304560683885,
+    "test_mae": 136.3201732015937,
+    "test_mape": 2.21031142411495
+  },
+  "data_info": {
+    "total_samples": 2514,
+    "train_samples": 1939,
+    "test_samples": 485,
+    "features": [
+      "Open",
+      "High",
+      "Low",
+      "Close",
+      "Volume"
+    ]
+  },
+  "training_date": "2026-01-16 12:18:09"
+}

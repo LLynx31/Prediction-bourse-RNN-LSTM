@@ -1,0 +1,31 @@
+# ==============================================
+# Projet : Prediction S&P500 avec LSTM
+# ==============================================
+
+# Deep Learning
+torch>=2.0.0              # Framework deep learning PyTorch
+
+# Donnees financieres
+yfinance>=0.2.0           # Telechargement des donnees boursieres
+
+# Manipulation de donnees
+pandas>=2.0.0             # DataFrames et manipulation
+numpy>=1.24.0             # Calculs numeriques
+
+# Visualisation
+matplotlib>=3.7.0         # Graphiques de base
+seaborn>=0.12.0           # Visualisations statistiques
+plotly>=5.15.0            # Graphiques interactifs
+
+# Machine Learning / Preprocessing
+scikit-learn>=1.3.0       # MinMaxScaler et metriques
+
+# Sauvegarde
+joblib>=1.3.0             # Serialisation du scaler
+
+# Dashboard
+streamlit>=1.25.0         # Interface web interactive
+
+# Notebook
+jupyter>=1.0.0            # Environnement notebook
+ipykernel>=6.25.0         # Kernel Python pour Jupyter
